@@ -12,6 +12,8 @@ export default function App(){
     <main>
       <About />
       <Projects />
+      <Contact />
+
     </main>
   );
 }
