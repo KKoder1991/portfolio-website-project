@@ -14,8 +14,24 @@ export default function About(){
                         I believe in both the creative and engineering process, this is why I have undertook to understand the process of Software Development from end-to-end.
                     </p>
                     <div className="flex justify-center">
-                        
+                        <a
+                            href='#contact'
+                            className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:online-none hover:bg-green-600 rounded text-lg">
+                                Work With Me
+                        </a>
+                        <a
+                        href="#projects"
+                        className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
+                        See My Past Work
+                        </a>
                     </div>
+                </div>
+                <div className="object-cover object-center rounded">
+                    <img 
+                        className="object-cover object-center rounded"
+                        alt="hero"
+                        src="./Cafe_picture_of_me.jpg"
+                    />
                 </div>
             </div>
         </section>
