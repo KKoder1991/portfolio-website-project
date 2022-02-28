@@ -10,12 +10,8 @@ import Testimonials from "./components/Testimonials";
 export default function App(){
   return (
     <main>
-      <Navbar />
       <About />
       <Projects />
-      <Skills />
-      <Testimonials />
-      <Contact />
     </main>
   );
 }
