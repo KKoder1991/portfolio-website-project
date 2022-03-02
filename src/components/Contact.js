@@ -12,7 +12,7 @@ export default function Contact(){
                 (key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key])
             )
             .join("&");
-    }
+    };
 
     function handleSubmit(e) {
         e.preventDefault();
@@ -23,7 +23,7 @@ export default function Contact(){
         })
             .then(() => alert("Message sent!"))
             .catch((error) => alert(error))
-    }
+    };
 
     return (
         <section id="contact" className="relative">
